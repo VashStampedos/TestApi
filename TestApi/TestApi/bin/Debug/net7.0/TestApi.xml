@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestApi</name>
+    </assembly>
+    <members>
+        <member name="M:TestApi.Controllers.UserController.GetUsers(TestApi.DTO.User.UserListRequest)">
+            <summary>
+            Return list of users with filters and sort
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestApi.Controllers.UserController.GetUser(System.Int32)">
+            <summary>
+            Return user by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestApi.Controllers.UserController.CreateUser(TestApi.DTO.User.CreateUserRequest)">
+            <summary>
+            Create user with spicified roleId
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestApi.Controllers.UserController.AddRole(TestApi.DTO.User.AddRoleToUserRequest)">
+            <summary>
+            Add role to user
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestApi.Controllers.UserController.UpdateUser(TestApi.DTO.User.UpdateUserRequest)">
+            <summary>
+            Update user info
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestApi.Controllers.UserController.DeleteUser(System.Int32)">
+            <summary>
+            Delete user from database
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:TestApi.DTO.User.UserListRequest" -->
+        <member name="T:TestApi.Migrations.CreateDataBase">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.CreateDataBase.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.CreateDataBase.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.CreateDataBase.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:TestApi.Migrations.Update_Context">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Context.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Context.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Context.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:TestApi.Migrations.Update_Constraint_in_UserRoles">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Constraint_in_UserRoles.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Constraint_in_UserRoles.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Constraint_in_UserRoles.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:TestApi.Migrations.Update_Constraint_in_UserRoles_2">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Constraint_in_UserRoles_2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Constraint_in_UserRoles_2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Constraint_in_UserRoles_2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:TestApi.Migrations.Update_Constraint_in_UserRoles_3">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Constraint_in_UserRoles_3.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Constraint_in_UserRoles_3.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Update_Constraint_in_UserRoles_3.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:TestApi.Migrations.UpdateContextData">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.UpdateContextData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.UpdateContextData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.UpdateContextData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:TestApi.Migrations.Initialize">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Initialize.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Initialize.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestApi.Migrations.Initialize.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
